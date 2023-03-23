@@ -1,0 +1,28 @@
+.footerDiv {
+    display: flex;
+    text-align: center;
+    padding: 5%;
+}
+
+.text {
+    color: white;
+}
+
+.spanFooter {
+    color: rgb(0,255,255);
+    font-weight: bolder;
+}
+
+@media (min-width: 720px) /*/heigth: 1280/*/ {
+    .footerDiv {
+        text-align: left;
+    }
+
+    .text {
+        font-size: x-large;
+    }
+
+    .spanFooter {
+        font-size: x-large;
+    }
+}

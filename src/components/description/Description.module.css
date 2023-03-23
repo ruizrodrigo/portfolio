@@ -1,0 +1,236 @@
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.titleDiv {
+    border-bottom: solid 3px rgb(0,255,255);
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    color: rgb(0,255,255);
+}
+
+.containerInfo {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+}
+
+.descriptionText {
+    padding: 10px 0px;
+    height: min-content;
+    color: white;
+    font-size: small;
+    text-align: justify;
+}
+
+.containerImg {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.descriptionImg {
+    height: 100%;
+}
+
+.downloadBTN {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255), 0px 0px 50px rgb(0,255,255);
+    text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255), 0px 0px 50px rgb(0,255,255);
+    height: min-content;
+    font-style: italic;
+    font-weight: bold;
+    animation: wink 5s 2s infinite;
+}
+
+.downloadBTN:hover {
+    cursor: url('../../images/Puntero-Mano32x32.png'), auto;
+}
+
+.downloadBTN:active {
+    color: rgb(0,255,255)
+}
+
+@keyframes wink {
+    0% {
+      opacity:0.8;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    8% {
+      opacity:0.5;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    12% {
+      opacity:0.5;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    25% {
+      opacity:0.7;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    72% {
+      opacity:0.5;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+
+    80% {
+        opacity:1;
+        text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+      }
+
+    85% {
+        opacity:1;
+        text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    90% {
+        opacity:1;
+        text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+      }
+    100% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+  }
+
+
+@media (min-width: 720px) {
+    .title {
+        font-size: 4em;
+    }
+
+    .containerInfo {
+      flex-direction: row;
+      align-items: end;
+    }
+
+    .description {
+        margin: 0 auto;
+        padding-top: 3%;
+        height: 100%;
+        justify-content: flex-start;
+    }
+
+    .descriptionText{
+        font-size: larger;
+        width: 50%;
+        padding-right: 10px;
+        border-top: 2px solid rgb(0,255,255);
+        border-right: 2px solid rgb(0,255,255);
+        border-top-right-radius: 10px;
+    } 
+
+    .text {
+        height: 80%;
+        display: contents;
+    }
+
+    .containerImg {
+        width: 50%;
+        display: flex;
+        height: 90%;
+        z-index: 1;
+    }
+
+    .descriptionImg {
+        height: 100%;
+    }
+
+    .downloadBTN {
+        position: relative;
+        left: 40%;
+        top: 40%;
+        font-size: 1.5em;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 1366px) /*/heigth: 768px/*/ {
+  .containerInfo {
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+  .descriptionImg {
+    z-index: 1;
+}
+
+  .downloadBTN {
+    left: 15%;
+    top: -10%;
+    z-index: 0;
+  }
+
+}
+
+@media (min-width: 1440px)/*/height: 900px/*/ {
+  .containerInfo {
+    flex-direction: row;
+  }
+
+  .descriptionText{
+    font-size: 1.5em;
+  }
+
+  .containerImg {
+    left: -10%;
+  }
+
+  .descriptionImg {
+    height: 95%;
+  }
+}
+
+@media (min-width: 1920px)/*/height: 1080px/*/{
+  .descriptionText{
+    font-size: 2em;
+  }
+
+  .downloadBTN {
+    font-size: 2em;
+  }
+}

@@ -1,0 +1,232 @@
+.presentationDiv {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10%;
+}
+
+@media (max-height: 500px) {
+    .presentationDiv {
+        height: 80%;
+    }
+}
+
+
+.hello {
+    width: 50%;
+    height: 20%;
+    color: white;
+    font-size: 4em;
+    display: flex;
+    justify-content: flex-end;
+    text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    animation: wink 5s 2s infinite;
+}
+
+@keyframes wink {
+    0% {
+      opacity:0.8;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    8% {
+      opacity:0.5;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    12% {
+      opacity:0.5;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    25% {
+      opacity:0.7;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    72% {
+      opacity:0.5;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+
+    80% {
+        opacity:1;
+        text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+      }
+
+    85% {
+        opacity:1;
+        text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+    
+    90% {
+        opacity:1;
+        text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+      }
+    100% {
+      opacity:1;
+      text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    }
+  }
+
+.welcome {
+    width: 50%;
+    height: 20%;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+    animation: slide 2s 0s 1;
+    position: relative;
+}
+
+@keyframes slide {
+    0% {
+       top: -50%;
+    }
+    100% {
+        top: 0%
+    }
+}
+
+.iAm {
+    width: 100%;
+    height: 10%;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: slide2 2s 0s 1;
+}
+
+@keyframes slide2 {
+    0% {
+       left: -50%;
+    }
+    100% {
+        left: 0%
+    }
+}
+
+.name {
+    width: 100%;
+    height: 30%;
+    color: white;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    animation: wink 2s 0s backwards; 
+}
+
+.degree {
+    width: 100%;
+    height: 20%;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    position: relative;
+    animation: slide3 2s 0s 1;
+}
+
+@keyframes slide3 {
+    0% {
+       top: 50%;
+    }
+    100% {
+        top: 0%
+    }
+}
+
+.line {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    height: 3px;
+    box-shadow: 0px 0px 5px rgb(0,255,255), 0px 0px 10px rgb(0,255,255), 0px 0px 20px rgb(0,255,255);
+    animation: wink 3s 4s infinite;
+}
+
+@media (min-width: 720px) {
+  .presentationDiv {
+    height: 90%;
+  }
+
+  .hello {
+    font-size: 6em;
+    padding-right: 5%;
+  }
+
+  .welcome {
+    font-size: 1.5em;
+  }
+
+  .iAm {
+    font-size: 2.5em;
+  }
+
+  .name {
+    font-size: 5em;
+  }
+
+  .degree {
+    font-size: 4em;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .hello {
+    font-size: 6em;
+    padding-right: 5%;
+  }
+
+  .welcome {
+    font-size: 2em;
+  }
+
+  .iAm {
+    font-size: 2.5em;
+  }
+
+  .name {
+    font-size: 5em;
+  }
+
+  .degree {
+    font-size: 4em;
+  }
+
+}
