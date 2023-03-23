@@ -14,7 +14,7 @@ export const Info = ({selection}: {selection:string}) => {
             {selection === 'img1' &&
             <>
                 <h3>Proyecto Grupal Sehos</h3>
-                <h5>Henry Bootcamp (19/08/22 - 29/09/22 <a className={s.anchor} href='https://github.com/ruizrodrigo/PI-Henry-dogs' target='_blank' rel='noreferrer'>repositorio</a></h5>
+                <h5>Henry Bootcamp (19/08/22 - 29/09/22) <a className={s.anchor} href='https://github.com/ruizrodrigo/PI-Henry-dogs' target='_blank' rel='noreferrer'>repositorio</a></h5>
                 <p>Aplicación web realizada como proyecto final del bootcamp SoyHenry que resuelve la necesidad de una empresa para la administración de las ventas de su comercio y la gestión de sus productos de forma online. 
                 Estuve relacionado de forma fullstack, aunque con mayor presencia en el sector frontend.
                 Principales funcionalidades: LandingPage, Login/Register, Mailing, Listado de productos, Filtros y ordenamientos, Búsqueda, Panel de usuario, Carrito, Pasarela de Pago con sistema de órdenes, Favoritos, Dashboard de Admin (Sistema CRUD), Reviews, entre otros.
